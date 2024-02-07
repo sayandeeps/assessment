@@ -16,6 +16,7 @@ interface PhotoItem {
 const Page = () => {
   const [photo, setPhoto] = useState<PhotoItem[]>([]);
   const [currentPage, setCurrentPage] = useState<number>(1);
+  
   const itemsPerPage = 20; // Change this to adjust the number of items per page
 
   const getPhotos = async () => {
@@ -59,7 +60,7 @@ const Page = () => {
           <div className="flex flex-wrap -m-4 ">
             {currentPhotos.map((item) => (
               <div key={item.id} className="p-4 w-full md:w-1/3 ">
-                <Card url={item.url} title={item.title} />
+                <Card id={item.id} url={item.url} title={item.title} />
               </div>
             ))}
           </div>
