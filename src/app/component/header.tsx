@@ -44,7 +44,7 @@ const Header: React.FC<{ onSearch: (query: string) => void }> = ({ onSearch }) =
                         <a href="/photos" className="block py-2 pr-4 pl-3  rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0  :text-white" aria-current="page">Photos</a>
                     </li>
                     <li>
-                        <a href="#" className="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  :text-gray-400 lg: :hover:text-white  :hover:bg-gray-700  :hover:text-white lg: :hover:bg-transparent  :border-gray-700">Saved Photos</a>
+                        <a href="/savephoto" className="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  :text-gray-400 lg: :hover:text-white  :hover:bg-gray-700  :hover:text-white lg: :hover:bg-transparent  :border-gray-700">Saved Photos</a>
                     </li>
                     <li>
                         <a href="/posts" className="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  :text-gray-400 lg: :hover:text-white  :hover:bg-gray-700  :hover:text-white lg: :hover:bg-transparent  :border-gray-700">Posts</a>
