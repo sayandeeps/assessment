@@ -5,7 +5,7 @@ import Layout from "./component/layout";
 export default function Home() {
   return (
     <Layout>
-    <div>hi</div>
+    <div>bokaach9oda</div>
     </Layout>
   );
 }
